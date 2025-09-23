@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>San Pietro Holiday Home — Casa Vacanze a Roma</title>
+  <title>FermataSanPietro — Casa Vacanze a Roma</title>
   <meta name="description" content="A pochi passi da Piazza San Pietro — appartamento confortevole per vacanze a Roma.">
-  <link rel="preconnect" href="https://fonts.googleapis.com"> */                                            
+  <link rel="preconnect" href="https://fonts.googleapis.com">                                            
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                                      
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="styles.css">
@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="#">San Pietro<span>Home</span></a>
+      <a class="logo" href="#">FermataSanPietro<span>Home</span></a>
       <button id="nav-toggle" class="nav-toggle" aria-label="Apri menu">☰</button>
       <nav id="site-nav" class="site-nav">
         <ul>
@@ -33,7 +33,7 @@
     <section id="home" class="hero">
       <div class="container hero-grid">
         <div class="hero-content">
-          <h1>San Pietro Holiday Home</h1>
+          <h1>FermataSanPietro</h1>
           <p class="lead">A pochi passi da Piazza San Pietro — comfort moderno e atmosfera romana.</p>
           <a class="btn primary" href="#booking">Prenota ora</a>
           <div class="quick-info">
@@ -43,12 +43,9 @@
           </div>
         </div>
         <div class="hero-image">
-          <!--
-		  <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1400&q=80&auto=format&fit=crop" alt="Vista appartamento Roma">
-		  -->
-		  <img src="images/Soggiorno-Panorama6.jpg?w=1400&q=80&auto=format&fit=crop">
-		  
-        </div>
+          <!--<img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1400&q=80&auto=format&fit=crop" alt="Vista appartamento Roma">-->
+		      <img src="images/Soggiorno-Panorama6.jpg?w=1400&q=80&auto=format&fit=crop">
+		    </div>
       </div>
     </section>
 
@@ -129,6 +126,66 @@
         <label class="full">Messaggio<textarea name="message" rows="4"></textarea></label>
         <button class="btn primary full" type="submit">Richiedi disponibilità</button>
       </form>
+      
+      <!-- Cal1.html (INIZIO)-->
+      <style>
+        :root {
+          --ldg-bnb-background: #ffffff;
+          --ldg-bnb-border-radius: 0.42em;
+          --ldg-bnb-box-shadow: 0px 24px 54px 0px rgba(0, 0, 0, 0.1);
+          --ldg-bnb-padding: 14px;
+          --ldg-bnb-input-background: #ffffff;
+          --ldg-bnb-button-border-radius: 0.42em;
+      
+          --ldg-bnb-color-primary: #fac600;
+          --ldg-bnb-color-primary-lighter:#fde380;
+          --ldg-bnb-color-primary-darker: #7d6300;
+          --ldg-bnb-color-primary-contrast: #333333;
+          --ldg-component-calendar-cell-selection-bg-color: #fac600;
+          --ldg-component-calendar-cell-selection-color: #333333;
+          --ldg-component-calendar-cell-selected-bg-color: #fde380;
+          --ldg-component-calendar-cell-selected-color: #333333;
+          --ldg-bnb-font-family: inherit;
+        }
+        #lodgify-book-now-box {    
+          width: 100%;
+        }
+      </style>
+      <div
+        id="lodgify-book-now-box"
+        data-rental-id="630630"
+        data-website-id="552168"
+        data-slug="fermatasanpietro"
+        data-language-code="it"
+        data-new-tab="true"
+        data-version="stable"
+        data-has-guests-breakdown
+        data-check-in-label='Check-in'
+        data-check-out-label='Check-out'
+        data-guests-label='Ospiti'
+        data-guests-singular-label='{{NumberOfGuests}} ospite'
+        data-guests-plural-label='{{NumberOfGuests}} ospiti'
+        data-location-input-label='Località'
+        data-total-price-label='Prezzo totale:'
+        data-select-dates-to-see-price-label='Selezionare le date per vedere il prezzo totale'
+        data-minimum-price-per-night-first-label='Da'
+        data-minimum-price-per-night-second-label='a notte'
+        data-book-button-label='Prenota adesso'
+        data-guests-breakdown-label='Ospiti'
+        data-adults-label='{"one":"adulto","other":"adulti"}'
+        data-adults-description='Età {minAge} o superiore'
+        data-children-label='{"one":"bambino","other":"bambini"}'
+        data-children-description='Età {minAge} - {maxAge}'
+        data-children-not-allowed-label='Non adatto ai bambini'
+        data-infants-label='{"one":"neonato","other":"neonati"}'
+        data-infants-description='Meno di {maxAge}'
+        data-infants-not-allowed-label='Non adatto ai neonati'
+        data-pets-label='{"one":"animale domestico","other":"animali domestici"}'
+        data-pets-not-allowed-label='Non consentito'
+        data-done-label='Fatto'        
+      ></div>
+      <!-- Cal1.html (FINE)-->
+  
     </section>
 
     <section id="contact" class="section container">
@@ -140,7 +197,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> San Pietro Holiday Home — Tutti i diritti riservati.</p>
+      <p>© <span id="year"></span> FermataSanPietro — Tutti i diritti riservati.</p>
     </div>
   </footer>
 
